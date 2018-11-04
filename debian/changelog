@@ -1,9 +1,12 @@
-qtdeclarative-opensource-src (5.11.2-3) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.11.2+kaliarm64-4) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Update symbols files from mips64r6el build log (closes: #911601).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 23 Oct 2018 09:31:08 +0300
+  [ Carsten Boeving ]
+  * Build for Kali-Gem arm64 wit OpenGL-ES support
+
+ -- Carsten Boeving <carsten.boeving@whitedome.com.au>  Sun, 04 Nov 2018 12:08:27 +1100
 
 qtdeclarative-opensource-src (5.11.2-2) unstable; urgency=medium
 

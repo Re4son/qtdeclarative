@@ -1,7 +1,8 @@
 Source: qtdeclarative-opensource-src
 Section: libs
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Carsten Boeving <carsten.boeving@whitedome.com.au>
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>,
            Pino Toscano <pino@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
@@ -11,14 +12,14 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
 Build-Depends: debhelper (>= 11),
                dpkg-dev (>= 1.17.14),
                libgl1-mesa-dri,
-               libqt5opengl5-dev (>= 5.11.2+dfsg~),
+               libqt5opengl5-dev (>= 5.11.2+kaliarm64~),
                libqt5xmlpatterns5-dev (>= 5.11.2~),
                pkg-kde-tools (>= 0.15.17~),
                python,
-               qtbase5-private-dev (>= 5.11.2+dfsg~),
+               qtbase5-private-dev (>= 5.11.2+kaliarm64~),
                xauth,
                xvfb
-Build-Depends-Indep: qtbase5-doc-html (>= 5.11.2+dfsg~) <!nodoc>,
+Build-Depends-Indep: qtbase5-doc-html (>= 5.11.2~) <!nodoc>,
                      qttools5-dev-tools (>= 5.11.2~) <!nodoc>
 Standards-Version: 4.2.1
 Homepage: http://qt-project.org/
